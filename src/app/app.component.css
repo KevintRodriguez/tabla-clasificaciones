@@ -34,6 +34,11 @@ body {
     margin-top: 100px;
 }
 
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
 .encabezado {
     display: flex;
     margin: 20px auto 20px;
@@ -75,8 +80,10 @@ h6 {
 }
 
 td img {
-    width: 40px;
+    width: 65px;
+    height: 65px;
     margin-top: 18px;
+    text-align: center;
 }
 
 
@@ -118,7 +125,7 @@ td img {
         overflow-x: auto;
         background-color: #ffffff;
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px white;
         border-collapse: separate;
     }
 
@@ -173,6 +180,7 @@ td img {
 
     td img {
         width: 33px;
+        height: 33px;
         margin-top: 10px;
     }
 }
